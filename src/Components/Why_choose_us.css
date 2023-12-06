@@ -1,0 +1,132 @@
+.structured_curriculum{
+  background-image: url("../Assets/pexels-lukas-590016 1.png");
+}
+.live_classes {
+  background-image: url("../Assets/pexels-lukas-590016 1 (1).png");
+}
+.practical_experience {
+  background-image: url("../Assets/pexels-lukas-590016 1 (2).png");
+}
+.aspirational_peers {
+  background-image: url("../Assets/pexels-lukas-590016 1 (3).png");
+}
+.mentorship {
+  background-image: url("../Assets/pexels-lukas-590016 1 (4).png");
+}
+.career_support {
+  background-image: url("../Assets/pexels-lukas-590016 1 (5).png");
+}
+
+/* .why_choose_us {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bx {
+
+
+  width: calc(33.33% - 20px);  
+  margin: 10px;  
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 15px;
+  color: white;
+} */
+
+/* .why_choose_us {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bx {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  position: relative;
+  color: white;
+  border-radius: 15px;
+}
+
+.bx p {
+  display: none;
+}
+
+.bx span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+} */
+
+/* Why_choose_us.css */
+
+.why_choose_us {
+  text-align: center;
+  background-color: #ddf5ff;
+  padding: 50px 0px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bx {
+  width: calc(33.33% - 20px); /* 20px margin between boxes, adjust as needed */
+  margin: 10px; /* Adjust margin as needed */
+  height: 200px; /* Set a fixed height for the bx divs */
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden; /* Hide overflowing content */
+  color: white;
+  border-radius: 15px;
+}
+
+.bx p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  opacity: 0; /* Hide the paragraph by default */
+  transition: opacity 0.5s; /* Add smooth transition effect */
+}
+
+.bx span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: top 0.3s; /* Add smooth transition effect for the top property */
+}
+
+.bx:hover p {
+  top:40%;
+  opacity: 1; /* Make the paragraph visible on hover */
+  font-size: 13px;
+}
+
+.bx:hover span {
+  top: 20%; /* Move the span to the top on hover, adjust as needed */
+}

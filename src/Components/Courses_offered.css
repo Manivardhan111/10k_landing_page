@@ -1,0 +1,15 @@
+ .selected-module {
+    background: linear-gradient(to right, #f87b34, #cb5c1c);
+  }
+  .container {
+    display: flex;
+  }
+  
+
+  .horizontal-line{
+    border: 2px solid rgb(231, 143, 1); /* Sets the border style to a 1px solid line with an orange color */
+    width: 100%; /* Sets the width to 100% of the container */
+    margin: 10px 0; /* Adds some space above and below the line */
+  } 
+
+  

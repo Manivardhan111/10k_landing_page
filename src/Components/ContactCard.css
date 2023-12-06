@@ -1,0 +1,32 @@
+
+
+.Contact_us {
+  background: linear-gradient(89.85deg, #cb5c1c, #f87b34), #fff;
+  border-radius: 15px;
+  padding: 20px;
+  color: white;
+  padding-bottom: 100px;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.Reach_us{
+padding-right: 15px;
+width: 35%;
+}
+.Quick_links{
+padding-right: 15px;
+width: 40%;
+}
+.Office{
+padding-right: 15px;
+width: 25%;
+}
+.Contact_icons img {
+  padding: 5px;
+}
+
+.Contact_icons {
+  border-radius: 10px;
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+
+
+.welcome_page_container {
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    width: 100vw; /* Set the width to 100% of the viewport width */
+    font-family: 'Open Sans'; 
+  }
+
+  .welcome_message{
+
+  }
+  .welcome_image{
+    
+  }
+  

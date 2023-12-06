@@ -1,0 +1,28 @@
+.trainer_details {
+  display: flex;
+  height: 406px;
+  padding: 30px 25px 50px 25px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0 20px;
+  border-radius: 0px 0px 20px 20px;
+background: linear-gradient(123deg, #5F2C51 -4.94%, #8B3654 90.42%);
+color: white; 
+}
+.trainer_card{
+  border:none;
+  box-shadow: 2px slategrey;
+  width:400px
+}
+
+.trainers{
+  justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+

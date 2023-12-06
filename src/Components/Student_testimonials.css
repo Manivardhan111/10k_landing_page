@@ -1,0 +1,63 @@
+/* .container {
+  position: relative;
+  text-align: center;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+/* StudentTestimonials.css */
+
+.student_testimonials_main {
+  padding: 15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 400px;
+  padding: 10px;
+  align-items: center;
+  margin: 10px;
+}
+
+.card-img-container {
+  width: 350px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+/* 
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

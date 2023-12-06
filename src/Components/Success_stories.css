@@ -1,0 +1,31 @@
+
+
+
+/* .success_card:hover *img {
+  background: linear-gradient(to bottom, #F87B34, #CB5C1C); 
+  color: white;
+  transition: background 0.3s ease, color 0.3s ease;
+  
+}
+
+.success-card:hover p,
+.success-card:hover span,
+.success-card:hover *:not(img) 
+{
+  color: white;
+} */
+
+
+.success_card:hover {
+  background: linear-gradient(to bottom, #F87B34, #CB5C1C);
+  color: white !important;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.success_card:hover p,
+.success_card:hover span,
+.success_card:hover *:not(img) {
+  color: white !important;
+}
+
+
